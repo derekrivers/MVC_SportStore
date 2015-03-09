@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="derek-sportsstoremvc5" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Derek\\documents\\visual\ studio\ 2013\\Projects\\SportStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Derek\\documents\\visual\ studio\ 2013\\Projects\\SportStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="EFDbContext-Web.config Connection String" description="" value="Data Source=tcp:xp4xhrw5kz.database.windows.net,1433;Initial Catalog=derek_sports_store_db;User Id=admin_1976@xp4xhrw5kz;Password=mud.sit.map-641" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Derek\\documents\\visual\ studio\ 2013\\Projects\\SportStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>
